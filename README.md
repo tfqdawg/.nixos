@@ -7,8 +7,9 @@
 
 <br>
 
-## To do.
+#### To do.
 
-- [x] finish migrate
-- [ ] installation steps
-- [ ] flatpak list
+- [x] finish migrate.
+- [ ] installation steps.
+- [ ] flatpak list.
+- [ ] trim and minimize userspace resource footprint.
