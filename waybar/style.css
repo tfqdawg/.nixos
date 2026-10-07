@@ -1,0 +1,108 @@
+@define-color bg  #1c1b19;
+@define-color fg  #d8d0c0;
+@define-color grey #a09484;
+@define-color coral  #e08060;
+@define-color orange #c09058;
+@define-color gold   #c8b468;
+@define-color olive  #8a9868;
+@define-color sage   #80a090;
+@define-color steel  #7890a0;
+@define-color rose   #b07878;
+@define-color mauve  #988090;
+
+*{
+  font-family: "SF Pro Rounded";
+  font-size: 13px;
+  font-weight: bold;
+  min-height: 0;
+  background-color: @bg;
+}
+
+#custom-logo{
+  color: @steel;
+  margin-left: 8px;
+}
+
+#workspaces button label{
+  font-family: "Crimson Pro", serif;
+  letter-spacing: 0.5px;
+}
+
+#workspaces button{
+  color: @grey;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  background: inherit;
+  min-width: 20px;
+  padding: 0 0px;
+}
+
+#workspaces button.focused{
+  color: @coral;
+  border: none;
+  text-shadow: none;
+  box-shadow: none;
+  background: inherit;
+}
+
+#tray{
+  color: @fg;
+  background-color: transparent;
+  border-bottom: 2px solid @fg;
+  margin-right: 10px;
+}
+
+#tray menu{
+  color: @fg;
+}
+
+#tray menu menuitem:hover{
+  color: @coral;
+}
+
+#network{
+  color: @olive;
+  background-color: transparent;
+  border-bottom: 2px solid @olive;
+}
+
+#pulseaudio{
+  color: @mauve;
+  background-color: transparent;
+  border-bottom: 2px solid @mauve;
+}
+
+#battery{
+  color: @orange;
+  border-bottom: 2px solid @orange;
+}
+
+#custom-clock{
+  color: @rose;
+  border-bottom: 2px solid @rose;
+  margin-right: 8px;
+}
+
+tooltip{
+  padding: 0 0 0 0px;
+  border: 1px solid @fg;
+}
+
+tooltip label{
+  font-family: "Maple Mono NF";
+  font-weight: bold;
+  color: @fg;
+}
+
+#custom-sep{
+  color: @grey;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+#custom-sep2{
+  color: @grey;
+  margin-left: 8px;
+  margin-right: 5px;
+}
