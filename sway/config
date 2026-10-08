@@ -12,7 +12,7 @@
 
 # APPEARANCE.
   # wallpaper
-  output * bg /home/tau/.nixos/wallpaper/war_.jpg fill
+  output * bg $HOME/.nixos/wallpaper/war_.jpg fill
 
   # waybar
   bar {

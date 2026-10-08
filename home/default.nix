@@ -4,9 +4,7 @@
 	imports = [
 		./bash.nix
 		./nixvim
-    ./sway-home.nix
-    ./waybar.nix
-    ./tofi.nix
+    ./swayconfig.nix
     ./zathura.nix
 	];
 
