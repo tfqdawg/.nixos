@@ -5,6 +5,7 @@ let
     vi = "nvim";
     hiscw = "history -c && history -w";
     ls = "ls -ll";
+    la = "ls -la";
     lsg = "sudo nix-env --list-generations -p /nix/var/nix/profiles/system";
     dga = "sudo nix-collect-garbage -d";
     dgs = "sudo nix-env -p /nix/var/nix/profiles/system --delete-generations";
@@ -13,7 +14,7 @@ let
     ga = "git add";
     gc = "git commit -m";
     gs = "git status";
-	};
+  };
 
 in{
   imports = [
