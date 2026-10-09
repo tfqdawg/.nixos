@@ -8,7 +8,7 @@ fi
 choice=$(printf "%s\n" "Suspend" "Reboot" "Shut Down" | tofi --prompt-text "Power" --width 300 --height 200)
 
 case "$choice" in
-  "Suspend") swaylock -f -c 1c1b19 && systemctl suspend ;;
+  "Suspend") systemctl suspend ;;
   "Reboot") systemctl reboot ;;
   "Shut Down") systemctl poweroff ;;
 esac
