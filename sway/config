@@ -9,6 +9,11 @@
   set $LAUNCHER tofi-drun --drun-launch=true
   set $FILE_MANAGER dolphin
   set $BROWSER org.mozilla.firefox
+  set $POWER_MENU $HOME/.nixos/waybar/powermenu.sh
+
+  exec swayidle -w \
+    before-sleep 'swaylock -f -c 1c1b19' \
+    after-resume 'swaymsg "output * power on"'
 
 # APPEARANCE.
   # wallpaper
@@ -32,10 +37,11 @@
   # general.
   bindsym $SUPER+e exec $FILE_MANAGER
   bindsym $SUPER+k exec $TERMINAL
-  bindsym $SUPER+l exec swaylock
+  bindsym $SUPER+l exec swaylock -c 1c1b19
   bindsym $SUPER+q kill
   bindsym $SUPER+a exec $LAUNCHER
   bindsym $SUPER+Shift+s reload
+  bindsym $SUPER+Shift+0 exec $POWER_MENU
   
   # apps.
   bindsym $SUPER+w exec flatpak run $BROWSER
