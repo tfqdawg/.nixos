@@ -65,7 +65,7 @@
   },
 
   "custom/clock": {
-    "exec": "date +'%l:%M %p'",
+    "exec": "date +'%a %-d %b  %-I:%M %p'",
     "interval": 60
   },
 
