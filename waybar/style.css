@@ -3,10 +3,10 @@
 @define-color grey #666666;
 @define-color coral #e08060;
 @define-color olive #8a9868;
-@define-color sage #80a090;
+@define-color mauve #988090;
 @define-color steel #7890a0;
 @define-color rose #b07878;
-@define-color orange #c09058;
+@define-color gold #c8b468;
 
 *{
   font-family: "SF Pro Rounded";
@@ -66,9 +66,9 @@
 }
 
 #pulseaudio{
-  color: @sage;
+  color: @mauve;
   background-color: transparent;
-  border-bottom: 2px solid @sage;
+  border-bottom: 2px solid @mauve;
 }
 
 #battery{
@@ -77,8 +77,8 @@
 }
 
 #custom-clock{
-  color: @orange;
-  border-bottom: 2px solid @orange;
+  color: @gold;
+  border-bottom: 2px solid @gold;
   margin-right: 8px;
 }
 
