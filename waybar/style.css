@@ -4,6 +4,7 @@
 @define-color coral #e08060;
 @define-color olive #8a9868;
 @define-color sage #80a090;
+@define-color steel #7890a0;
 @define-color rose #b07878;
 @define-color orange #c09058;
 
@@ -16,7 +17,7 @@
 }
 
 #custom-logo{
-  color: #7890a0;
+  color: @steel;
   margin-left: 8px;
 }
 
