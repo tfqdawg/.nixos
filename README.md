@@ -5,7 +5,9 @@
 <img src="https://img.shields.io/badge/Sway-1c1b19?style=for-the-badge&logo=sway&logoColor=e08060">
 </p>
 
-<br>
+<p align="center">
+<img src="preview.png" alt="Preview">
+</p>
 
 #### _1.0 Install._
 
