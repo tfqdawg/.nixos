@@ -18,7 +18,7 @@
 
 # APPEARANCE.
   # wallpaper
-  output * bg $HOME/.nixos/wallpaper/swiss.jpg fill
+  output * bg $HOME/.nixos/wallpaper/war.jpg fill
 
   # waybar
   bar {
