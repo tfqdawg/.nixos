@@ -1,12 +1,11 @@
 @define-color bg #101010;
-@define-color fg #A8A8A8;
+@define-color fg #DBDAD6;
 @define-color grey #666666;
 @define-color coral #e08060;
 @define-color olive #8a9868;
 @define-color mauve #988090;
 @define-color steel #7890a0;
 @define-color rose #b07878;
-@define-color gold #c8b468;
 
 *{
   font-family: "SF Pro Rounded";
@@ -77,8 +76,8 @@
 }
 
 #custom-clock{
-  color: @gold;
-  border-bottom: 2px solid @gold;
+  color: @fg;
+  border-bottom: 2px solid @fg;
   margin-right: 8px;
 }
 
